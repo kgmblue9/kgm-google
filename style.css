@@ -1,0 +1,62 @@
+body {
+    margin: 20px;
+    height:95vh;
+    font-family: Apple SD Gothic Neo,arial,sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: #202124;
+    font-size: 14px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main {
+    text-align: center;
+}
+
+.main div {
+    margin: 20px;
+}
+
+.main input {
+    max-width: 584px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+}
+
+.logo_area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    width: 272px;
+    height: 92px;
+}
+
+.foot-area {
+    background: #f2f2f2;
+    margin: 0px, 20px;
+}
+
+.foot-area dev {
+    
+}
+
+.foot-line {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
